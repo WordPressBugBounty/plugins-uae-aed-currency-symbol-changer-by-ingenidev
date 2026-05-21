@@ -5,9 +5,9 @@ Author URI: https://ingenidev.com
 Tags: uae, aed, dirham, عملة, درهم
 Requires Plugins: woocommerce
 Requires at least: 3.3
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.2.17
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 
 WooCommerce uses the "د.إ" for the United Arab Emirates Dirham (AED). This ingenidev plugin changes it to the new official symbol. | يغير هذا المكون الإضافي رمز الدرهم الإماراتي إلى الرمز الرسمي الجديد.
@@ -54,6 +54,9 @@ Do you have questions or issues with AED Currency Symbol Changer? Use these supp
 1. screenshot-1.png
 
 == Changelog == 
+
+= 1.1.1 - 2026-05-21 =
+* Fixed: Dirham symbol not rendering correctly on WordPress 7.0 due to Font Library conflicts.
 
 = 1.1.0 - 2025-05-13 =
 * Fixed: UAE Dirham Symbol not shown in some occurences on the website or admin area.
